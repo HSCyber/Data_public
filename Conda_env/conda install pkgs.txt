@@ -1,0 +1,13 @@
+# 以下步骤在ubuntu22系统中完成安装
+# conda activate base
+# 通过命令行或者Anaconda Prompt进入base环境
+conda create -n geop python=3.9
+conda install -c conda-forge geopandas
+conda install -c conda-forge rasterio rasterstats
+conda install -c conda-forge netcdf4
+conda install -c anaconda openpyxl
+conda install -c conda-forge matplotlib seaborn bokeh cartopy  
+conda install -c conda-forge ipykernel
+# 可选
+conda install -c conda-forge jupyterlab
+# 或者conda install -c conda-forge jupyter notebook
